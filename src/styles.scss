@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import "sass/imports";
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+body,
+button,
+html,
+input,
+select,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
